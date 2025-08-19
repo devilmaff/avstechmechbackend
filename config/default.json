@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://avstechmech:husain2006@vgrow.8vkww87.mongodb.net/?retryWrites=true&w=majority&appName=vgrow",
+  "jwtSecret": "avs-tech-mech-super-secret-key"
+}
