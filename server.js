@@ -3,6 +3,8 @@ const http = require('http');
 const { Server } = require("socket.io");
 const connectDB = require('./config/db');
 const cors = require('cors');
+app.use('/api/auth', require('./routes/api/auth'));
+app.use('/api/messages', require('./routes/api/messages'));
 
 // Initialize Express app
 const app = express();
